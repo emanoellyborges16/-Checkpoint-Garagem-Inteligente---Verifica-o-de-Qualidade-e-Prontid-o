@@ -1,0 +1,1 @@
+# -Checkpoint-Garagem-Inteligente---Verifica-o-de-Qualidade-e-Prontid-o
