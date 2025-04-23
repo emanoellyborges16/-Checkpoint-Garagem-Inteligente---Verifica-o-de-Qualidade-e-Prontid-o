@@ -1,0 +1,42 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carro Dinâmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Meu Carro Interativo 🚗💨</h1>
+
+    <div class="car-container">
+        <div id="car-display">
+            <h2 id="car-model">Carregando...</h2>
+            <p>Status: <strong id="car-status" class="status-off">Desligado</strong></p>
+            <p>Velocidade: <strong id="car-speed">0</strong> km/h</p>
+            <p>Vel. Máxima: <span id="car-max-speed">--</span> km/h</p>
+            <p>Portas: <span id="car-doors">--</span></p>
+        </div>
+
+        <div id="car-controls">
+            <h3>Controles</h3>
+            <button id="btn-toggle-engine">Ligar</button>
+            <button id="btn-accelerate" disabled>Acelerar</button>
+            <button id="btn-brake" disabled>Frear</button>
+        </div>
+
+        <div id="car-log">
+            <h3>Log de Ações</h3>
+            <ul id="log-list">
+                <li class="placeholder">Aguardando ações...</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Scripts JS - ORDEM É IMPORTANTE! -->
+    <script src="js/classes/Veiculo.js"></script>
+    <script src="js/classes/Carro.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+</html>
